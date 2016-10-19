@@ -1,0 +1,10 @@
+[13-Oct-2016 09:28:42 UTC] RuntimeException: Failed to start the session because headers have already been sent by "/home/drozas84/public_html/vendor/symfony/http-foundation/Response.php" at line 1158. in /home/drozas84/public_html/vendor/symfony/http-foundation/Session/Storage/NativeSessionStorage.php on line 140 #0 /home/drozas84/public_html/core/lib/Drupal/Core/Session/SessionManager.php(163): Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage->start()
+#1 /home/drozas84/public_html/core/lib/Drupal/Core/Session/SessionManager.php(194): Drupal\Core\Session\SessionManager->startNow()
+#2 /home/drozas84/public_html/vendor/symfony/http-foundation/Session/Session.php(181): Drupal\Core\Session\SessionManager->save()
+#3 /home/drozas84/public_html/core/includes/install.core.inc(144): Symfony\Component\HttpFoundation\Session\Session->save()
+#4 /home/drozas84/public_html/core/install.php(44): install_drupal(Object(Composer\Autoload\ClassLoader))
+#5 {main}
+[13-Oct-2016 10:12:40 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[13-Oct-2016 10:13:10 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[13-Oct-2016 10:13:12 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[13-Oct-2016 10:13:14 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
