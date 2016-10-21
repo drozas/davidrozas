@@ -193,6 +193,10 @@ color: #ffffff;
     padding: 4px 10px;
 }
 
+#block-languageswitcher {
+	font-size: 18px;
+}
+
 body {
     color: #444;
     font-family: "Cantarell",sans-serif;
