@@ -166,14 +166,29 @@ table {
 }
 /*drozas: custom classes added to fix small issues*/
 
- #cc-licenses {
+#cc-licenses {
     text-align: justify;
     font-size: 10px;
     line-height: 12px;
 }
 
- #footer-menu-links {
+#footer-menu-links {
     font-size: 16px;
     line-height: 2px;
     text-align: left;
+}
+
+.follow-section {
+    padding-top: 30px;
+}
+
+.follow-section ul li a {
+background: #c9302c none repeat scroll 0 0;
+color: #ffffff;
+}
+
+.follow-section ul li a {
+    font-size: 17px;
+    margin-right: 2px;
+    padding: 4px 10px;
 }
