@@ -164,3 +164,10 @@ table {
     background-color: #c9302c;
   }
 }
+/*drozas: custom classes added to fix small issues*/
+
+ #cc-licenses {
+    text-align: justify;
+    font-size: 10px;
+    line-height: 12px;
+}
