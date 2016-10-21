@@ -30,14 +30,11 @@
 
 {% macro menu_links(items, attributes, menu_level) %}
   {% import _self as menus %}
+  <div id="footer-menu-links">
   {% if items %}
-    {% if menu_level == 0 %}
-      <ul{{ attributes }}>
-    {% else %}
-      <ul>
-    {% endif %}
     {% for item in items %}
        &nbsp;[&nbsp;{{ link(item.title, item.url) }}&nbsp;]&nbsp; 
     {% endfor %}
   {% endif %}
+  </div>
 {% endmacro %}

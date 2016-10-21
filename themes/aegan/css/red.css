@@ -171,3 +171,9 @@ table {
     font-size: 10px;
     line-height: 12px;
 }
+
+ #footer-menu-links {
+    font-size: 16px;
+    line-height: 2px;
+    text-align: left;
+}
