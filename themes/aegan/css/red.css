@@ -204,3 +204,10 @@ body {
     line-height: 2em;
     text-align: justify;
 }
+
+.logo-overview {
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+
+}
