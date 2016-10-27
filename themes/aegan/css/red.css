@@ -215,12 +215,13 @@ body {
 #revision_title {
     font-size: 16px;
     line-height: 90%;
+    text-align: left;
 }
 
 #revision_log {
 	font-size: 10px;
 	line-height: 100%;
-
+    text-align: left;
 }
 
 #block-views-block-recent-revisions-block-1{
