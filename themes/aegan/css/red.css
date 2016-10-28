@@ -227,3 +227,9 @@ body {
 #block-views-block-recent-revisions-block-1{
 	padding-bottom: 15px;
 }
+
+.presentation-logo-overview {
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+}
