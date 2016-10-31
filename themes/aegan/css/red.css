@@ -233,3 +233,14 @@ body {
     margin: auto;
     padding-bottom: 15px;
 }
+
+#event_title {
+    align-items: center;
+    display: flex;
+    font-family: "Roboto",sans-serif;
+    font-size: 23px;
+    justify-content: center;
+    padding-top: 20px;
+    text-align: center;
+}
+
