@@ -257,4 +257,10 @@ body {
 	float: right;
 }
 
+.caption > figcaption {
+    background-color: #cecece;
+    font-size: 8px;
+    line-height: initial;
+    padding: 3px 3px 3px 4px;
+}
 
