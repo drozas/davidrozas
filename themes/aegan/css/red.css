@@ -172,6 +172,10 @@ table {
     line-height: 12px;
 }
 
+#cc-licenses-logo {
+    padding-bottom: 4px;
+}
+
 #footer-menu-links {
     font-size: 16px;
     line-height: 2px;
@@ -179,7 +183,7 @@ table {
 }
 
 .follow-section {
-    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .follow-section ul li a {
