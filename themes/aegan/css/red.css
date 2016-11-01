@@ -259,8 +259,9 @@ body {
 
 .caption > figcaption {
     background-color: #cecece;
-    font-size: 8px;
+    font-size: 12px;
     line-height: initial;
     padding: 3px 3px 3px 4px;
+    text-align: center;
 }
 
