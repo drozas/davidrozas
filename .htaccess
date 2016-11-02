@@ -70,6 +70,7 @@ AddEncoding gzip svgz
   RewriteEngine on
   #drozas: exclude scripts and cgi-bin paths
   RewriteCond %{REQUEST_URI} "/scripts/" [OR]
+  RewriteCond %{REQUEST_URI} "/lab/" [OR]
   RewriteCond %{REQUEST_URI} "/cgi-bin/"
   RewriteRule (.*) $1 [L]
 
