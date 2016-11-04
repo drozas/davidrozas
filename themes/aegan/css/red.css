@@ -265,4 +265,12 @@ body {
     text-align: center;
 }
 
+.portfolio-logo-overview {
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+
 
