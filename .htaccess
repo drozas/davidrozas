@@ -198,5 +198,5 @@ AddEncoding gzip svgz
 #php_flag apc.cache_by_default Off
 
 #drozas: adding for redirection
-RewriteCond %{HTTP_HOST} ^www\.davidrozs\.cc$
+RewriteCond %{HTTP_HOST} ^www\.davidrozas\.cc$
 RewriteRule ^/?$ "http\:\/\/davidrozas\.cc\/" [R=301,L]
