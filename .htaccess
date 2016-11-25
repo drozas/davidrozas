@@ -194,9 +194,6 @@ AddEncoding gzip svgz
   RequestHeader unset Proxy
 </IfModule>
 
-#drozas: Disabling APC due to non-response issue
-#php_flag apc.cache_by_default Off
-
 #drozas: adding for redirection
 RewriteCond %{HTTP_HOST} ^www\.davidrozas\.cc$
 RewriteRule ^/?$ "http\:\/\/davidrozas\.cc\/" [R=301,L]
