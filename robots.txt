@@ -59,3 +59,6 @@ Disallow: /index.php/user/password/
 Disallow: /index.php/user/register/
 Disallow: /index.php/user/login/
 Disallow: /index.php/user/logout/
+
+#drozas: disallow thesis files after having the	viva
+Disallow: /sites/default/files/publications/files/phd_thesis_drupal_*.pdf
